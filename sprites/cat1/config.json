@@ -1,0 +1,196 @@
+{
+  "coat": "ginger",
+  "frame_width": 40,
+  "mouth_x": 34,
+  "anims": {
+    "walk": {
+      "fps": 9,
+      "tfps": 3,
+      "intro": 0,
+      "outro": 0,
+      "durs": null,
+      "sfx": {}
+    },
+    "hop": {
+      "fps": 7,
+      "tfps": 3,
+      "intro": 0,
+      "outro": 0,
+      "durs": null,
+      "sfx": {}
+    },
+    "idle": {
+      "fps": 2,
+      "tfps": 3,
+      "intro": 0,
+      "outro": 0,
+      "durs": null,
+      "sfx": {}
+    },
+    "sit": {
+      "fps": 1.5,
+      "tfps": 3,
+      "intro": 0,
+      "outro": 0,
+      "durs": null,
+      "sfx": {}
+    },
+    "t_stand_sit": {
+      "fps": 3,
+      "tfps": 3,
+      "intro": 0,
+      "outro": 0,
+      "durs": [
+        0.25,
+        0.25,
+        0.3
+      ],
+      "sfx": {}
+    },
+    "t_sit_stand": {
+      "fps": 3,
+      "tfps": 3,
+      "intro": 0,
+      "outro": 0,
+      "durs": [
+        0.3,
+        0.25,
+        0.25
+      ],
+      "sfx": {}
+    },
+    "t_sit_lie": {
+      "fps": 3,
+      "tfps": 3,
+      "intro": 0,
+      "outro": 0,
+      "durs": [
+        0.45,
+        0.5,
+        0.55
+      ],
+      "sfx": {}
+    },
+    "t_lie_sit": {
+      "fps": 3,
+      "tfps": 3,
+      "intro": 0,
+      "outro": 0,
+      "durs": [
+        0.55,
+        0.5,
+        0.45
+      ],
+      "sfx": {}
+    },
+    "lick_paw": {
+      "fps": 3,
+      "tfps": 2.5,
+      "intro": 1,
+      "outro": 1,
+      "durs": null,
+      "sfx": {}
+    },
+    "lick_tail": {
+      "fps": 3,
+      "tfps": 2.5,
+      "intro": 1,
+      "outro": 1,
+      "durs": null,
+      "sfx": {}
+    },
+    "wash": {
+      "fps": 5,
+      "tfps": 3,
+      "intro": 1,
+      "outro": 1,
+      "durs": null,
+      "sfx": {}
+    },
+    "sleep_loaf": {
+      "fps": 1.5,
+      "tfps": 3,
+      "intro": 0,
+      "outro": 0,
+      "durs": null,
+      "sfx": {}
+    },
+    "sleep_curl": {
+      "fps": 1.5,
+      "tfps": 1.5,
+      "intro": 2,
+      "outro": 2,
+      "durs": null,
+      "sfx": {}
+    },
+    "eat": {
+      "fps": 4,
+      "tfps": 2.5,
+      "intro": 2,
+      "outro": 2,
+      "durs": null,
+      "sfx": {
+        "3": [
+          "crunch",
+          1.0
+        ],
+        "5": [
+          "crunch",
+          1.0
+        ]
+      }
+    },
+    "stretch_back": {
+      "fps": 3,
+      "tfps": 3,
+      "intro": 0,
+      "outro": 0,
+      "durs": [
+        0.3,
+        0.4,
+        0.55,
+        0.7,
+        0.35,
+        0.7,
+        0.3,
+        0.25
+      ],
+      "sfx": {
+        "3": [
+          "mew",
+          0.35
+        ]
+      }
+    },
+    "stretch_wall": {
+      "fps": 1,
+      "tfps": 1,
+      "intro": 0,
+      "outro": 0,
+      "durs": [
+        0.45,
+        0.45,
+        0.4,
+        0.5,
+        1.0,
+        0.5,
+        0.4,
+        0.35
+      ],
+      "sfx": {
+        "4": [
+          "mew",
+          0.7
+        ]
+      }
+    },
+    "purr": {
+      "fps": 8,
+      "tfps": 3,
+      "intro": 0,
+      "outro": 0,
+      "durs": null,
+      "sfx": {}
+    }
+  }
+}
