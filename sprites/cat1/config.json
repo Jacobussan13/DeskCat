@@ -2,6 +2,10 @@
   "coat": "ginger",
   "frame_width": 40,
   "mouth_x": 34,
+  "held_pivot": [
+    21,
+    10
+  ],
   "anims": {
     "walk": {
       "fps": 9,
@@ -132,11 +136,11 @@
       "sfx": {
         "3": [
           "crunch",
-          1.0
+          0.6
         ],
         "5": [
           "crunch",
-          1.0
+          0.6
         ]
       }
     },
@@ -158,7 +162,7 @@
       "sfx": {
         "3": [
           "mew",
-          0.35
+          0.2
         ]
       }
     },
@@ -180,12 +184,266 @@
       "sfx": {
         "4": [
           "mew",
-          0.7
+          0.4
         ]
       }
     },
     "purr": {
       "fps": 8,
+      "tfps": 3,
+      "intro": 0,
+      "outro": 0,
+      "durs": null,
+      "sfx": {}
+    },
+    "jump": {
+      "fps": 3,
+      "tfps": 3,
+      "intro": 0,
+      "outro": 0,
+      "durs": [
+        0.18,
+        0.12,
+        0.3,
+        0.2,
+        0.1,
+        0.1
+      ],
+      "sfx": {
+        "4": [
+          "thud",
+          0.3
+        ]
+      }
+    },
+    "pounce": {
+      "fps": 3,
+      "tfps": 3,
+      "intro": 0,
+      "outro": 0,
+      "durs": [
+        0.15,
+        0.15,
+        0.25,
+        0.2,
+        0.15,
+        0.1
+      ],
+      "sfx": {
+        "1": [
+          "swat",
+          0.4
+        ],
+        "4": [
+          "thud",
+          0.3
+        ]
+      }
+    },
+    "stalk": {
+      "fps": 6,
+      "tfps": 3,
+      "intro": 0,
+      "outro": 0,
+      "durs": null,
+      "sfx": {}
+    },
+    "wiggle": {
+      "fps": 7,
+      "tfps": 3,
+      "intro": 0,
+      "outro": 0,
+      "durs": null,
+      "sfx": {}
+    },
+    "reach": {
+      "fps": 4,
+      "tfps": 3,
+      "intro": 0,
+      "outro": 0,
+      "durs": null,
+      "sfx": {
+        "1": [
+          "swat",
+          0.3
+        ],
+        "3": [
+          "swat",
+          0.3
+        ]
+      }
+    },
+    "run": {
+      "fps": 12,
+      "tfps": 3,
+      "intro": 0,
+      "outro": 0,
+      "durs": null,
+      "sfx": {}
+    },
+    "hiss": {
+      "fps": 6,
+      "tfps": 3,
+      "intro": 0,
+      "outro": 0,
+      "durs": null,
+      "sfx": {
+        "0": [
+          "hiss",
+          0.5
+        ]
+      }
+    },
+    "swat": {
+      "fps": 5,
+      "tfps": 3,
+      "intro": 0,
+      "outro": 0,
+      "durs": null,
+      "sfx": {
+        "1": [
+          "swat",
+          0.6
+        ]
+      }
+    },
+    "invite": {
+      "fps": 4,
+      "tfps": 3,
+      "intro": 0,
+      "outro": 0,
+      "durs": null,
+      "sfx": {
+        "0": [
+          "chirp",
+          0.4
+        ]
+      }
+    },
+    "roll": {
+      "fps": 6,
+      "tfps": 3,
+      "intro": 1,
+      "outro": 1,
+      "durs": null,
+      "sfx": {
+        "3": [
+          "trill",
+          0.3
+        ]
+      }
+    },
+    "catch": {
+      "fps": 4,
+      "tfps": 3,
+      "intro": 0,
+      "outro": 0,
+      "durs": null,
+      "sfx": {
+        "1": [
+          "crunch",
+          0.3
+        ],
+        "3": [
+          "crunch",
+          0.3
+        ]
+      }
+    },
+    "stare": {
+      "fps": 2,
+      "tfps": 3,
+      "intro": 0,
+      "outro": 0,
+      "durs": null,
+      "sfx": {}
+    },
+    "sad": {
+      "fps": 2,
+      "tfps": 3,
+      "intro": 0,
+      "outro": 0,
+      "durs": null,
+      "sfx": {}
+    },
+    "angry": {
+      "fps": 4,
+      "tfps": 3,
+      "intro": 0,
+      "outro": 0,
+      "durs": null,
+      "sfx": {}
+    },
+    "happy": {
+      "fps": 4,
+      "tfps": 3,
+      "intro": 0,
+      "outro": 0,
+      "durs": null,
+      "sfx": {}
+    },
+    "yawn": {
+      "fps": 3,
+      "tfps": 3,
+      "intro": 0,
+      "outro": 0,
+      "durs": [
+        0.4,
+        0.5,
+        1.0,
+        0.5,
+        0.4
+      ],
+      "sfx": {
+        "2": [
+          "mew",
+          0.25
+        ]
+      }
+    },
+    "walk_low": {
+      "fps": 6,
+      "tfps": 3,
+      "intro": 0,
+      "outro": 0,
+      "durs": null,
+      "sfx": {}
+    },
+    "clatter": {
+      "fps": 5,
+      "tfps": 3,
+      "intro": 0,
+      "outro": 0,
+      "durs": null,
+      "sfx": {
+        "1": [
+          "clank",
+          1.0
+        ],
+        "3": [
+          "clank",
+          0.7
+        ]
+      }
+    },
+    "held": {
+      "fps": 4,
+      "tfps": 3,
+      "intro": 0,
+      "outro": 0,
+      "durs": null,
+      "sfx": {}
+    },
+    "fly": {
+      "fps": 6,
+      "tfps": 3,
+      "intro": 0,
+      "outro": 0,
+      "durs": null,
+      "sfx": {}
+    },
+    "dizzy": {
+      "fps": 4,
       "tfps": 3,
       "intro": 0,
       "outro": 0,
